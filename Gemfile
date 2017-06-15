@@ -55,6 +55,7 @@ group :development, :test do
   gem 'pronto', '0.9.3'
   gem 'pronto-brakeman', '0.9.0'
   gem 'pronto-eslint', '0.9.1'
+  gem 'pronto-fasterer', '0.9.0'
   gem 'pronto-rails_best_practices', '0.9.0'
   gem 'pronto-rubocop', '0.9.0'
   gem 'rubocop', '0.49.1' # Style checker.  Changes can cause test failure
@@ -72,8 +73,6 @@ end
 
 group :development do
   gem 'bootsnap', '1.0.0' # Speed up boot via caches
-  # gem 'fasterer', '0.3.2' # Provide speed recommendations - run 'fasterer'
-  # Waiting for Ruby 2.4 support: https://github.com/seattlerb/ruby_parser/issues/239
   gem 'traceroute', '0.5.0' # Adds 'rake traceroute' command to check routes
   gem 'translation', '1.9' # translation.io - translation service
   gem 'web-console', '3.5.1' # Debugging tool for Ruby on Rails apps
