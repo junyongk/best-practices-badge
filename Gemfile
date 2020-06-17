@@ -19,7 +19,7 @@ gem 'fastly-rails', '0.8.0'
 gem 'font-awesome-rails', '4.7.0.2'
 gem 'imagesLoaded_rails', '4.1.0' # JavaScript - enable wait for image load
 gem 'jbuilder', '2.7.0'
-gem 'jquery-rails', '4.3.1' # JavaScript jQuery library (for Rails)
+gem 'jquery-rails', '4.4.0' # JavaScript jQuery library (for Rails)
 gem 'jquery-ui-rails', '6.0.1' # JavaScript jQueryUI library (for Rails)
 gem 'lograge', '0.5.1' # Simplify logs
 gem 'mail', '2.6.6' # Ruby mail handler
