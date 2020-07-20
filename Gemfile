@@ -49,7 +49,7 @@ group :development, :test do
   gem 'eslintrb', '2.1.0'
   gem 'json', '2.1.0'
   gem 'license_finder', '3.0.0'
-  gem 'mdl', '0.4.0'
+  gem 'mdl', '0.7.0'
   gem 'pronto', '0.9.3'
   gem 'pronto-brakeman', '0.9.0'
   gem 'pronto-eslint', '0.9.1'
