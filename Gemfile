@@ -16,12 +16,12 @@ gem 'bootstrap_form', '2.7.0'
 gem 'chartkick', '2.2.4' # Chart project_stats
 gem 'coffee-rails', '4.2.2', require: false # CoffeeScript Javascript preproc
 gem 'fastly-rails', '0.8.0'
-gem 'font-awesome-rails', '4.7.0.2'
+gem 'font-awesome-rails', '4.7.0.4'
 gem 'imagesLoaded_rails', '4.1.0' # JavaScript - enable wait for image load
 gem 'jbuilder', '2.7.0'
 gem 'jquery-rails', '4.3.1' # JavaScript jQuery library (for Rails)
 gem 'jquery-ui-rails', '6.0.1' # JavaScript jQueryUI library (for Rails)
-gem 'lograge', '0.5.1' # Simplify logs
+gem 'lograge', '0.9.0' # Simplify logs
 gem 'mail', '2.6.6' # Ruby mail handler
 gem 'octokit', '4.7.0' # GitHub's official Ruby API
 gem 'omniauth-github', '1.3.0' # Authentication to GitHub (get project info)
@@ -30,7 +30,7 @@ gem 'paper_trail', '7.1.0' # Record previous versions of project data
 gem 'pg', '0.21.0' # PostgreSQL database, used for data storage
 gem 'pg_search', '2.0.1' # PostgreSQL full-text search
 gem 'puma', '3.9.1' # Faster webserver; recommended by Heroku
-gem 'rails', '5.1.2' # Our web framework
+gem 'rails', '5.2.4.4' # Our web framework
 gem 'rails-i18n', '5.0.4' # Localizations for Rails built-ins
 gem 'redcarpet', '3.4.0' # Process markdown in form textareas (justifications)
 gem 'sass-rails', '5.0.6', require: false
@@ -45,7 +45,7 @@ group :development, :test do
   gem 'bullet', '5.5.1'
   gem 'bundler-audit', '0.5.0'
   gem 'database_cleaner', '1.6.1' # Cleans up database between tests
-  gem 'dotenv-rails', '2.2.1'
+  gem 'dotenv-rails', '2.2.2'
   gem 'eslintrb', '2.1.0'
   gem 'json', '2.1.0'
   gem 'license_finder', '3.0.0'
