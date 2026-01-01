@@ -50,11 +50,11 @@ group :development, :test do
   gem 'json', '2.1.0'
   gem 'license_finder', '3.0.0'
   gem 'mdl', '0.4.0'
-  gem 'pronto', '0.9.3'
-  gem 'pronto-brakeman', '0.9.0'
-  gem 'pronto-eslint', '0.9.1'
-  gem 'pronto-rails_best_practices', '0.9.0'
-  gem 'pronto-rubocop', '0.9.0'
+  gem 'pronto', '0.9.5'
+  gem 'pronto-brakeman', '0.9.1'
+  gem 'pronto-eslint', '0.10.0'
+  gem 'pronto-rails_best_practices', '0.10.0'
+  gem 'pronto-rubocop', '0.9.1'
   gem 'rubocop', '0.49.1' # Style checker.  Changes can cause test failure
   gem 'ruby-graphviz', '1.2.3' # This is used for bundle viz
   gem 'spring', '2.0.2' # Preloads app so console, rake, and tests run faster
